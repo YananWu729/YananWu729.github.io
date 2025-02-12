@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yanan Wu's Portfolio</title>
+    <meta
+    name="description"
+    content="Yanan Wu's Portfolio website - Yanan's Journey"
+  />
+  <meta
+    name="keywords"
+    content="Yanan Wu, Language teacher, Frontend Developer, Photographer"
+  />
+  <meta name="author" content="Yanan Wu" />
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Yanan Wu's Portfolio" />
+  <meta
+    property="og:description"
+    content="Official site for Yanan Wu's Portfolio"
+  />
+  <meta property="og:image" content="URL to your webpage's image" />
+  <meta property="og:url" content="URL of your webpage" />
+
+  <meta name="twitter:title" content="Yanan Wu's Portfolio" />
+  <meta
+    name="twitter:description"
+    content="Yanan Wu's Portfolio website - Yanan's Journey"
+  />
+  <meta name="twitter:image" content="URL to your webpage's image" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="" type="image/x-icon" />
+
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <header id="navbar">
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav>
+        <ul>
+          <li class="home"><a href="#">Home</a></li>
+          <li class="language-teacher">
+            <a href="#language-teacher">Language teacher</a>
+          </li>
+          <li class="frontend-developer">
+            <a href="#frontend-developer">Frontend Developer</a>
+          </li>
+          <li class="photographer"><a href="#gallery">Photographer</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="header">
+        <div class="profile">
+          <div>
+            <img src="./Images/Yanan Wu.JPG" alt="Yanan Wu" />
+          </div>
+        </div>
+        <div>
+          <h1>Hi, my name is Yanan Wu.</h1>
+          <p>
+            I am a qualified Chinese and English teacher, a frontend developer,
+            who also has great passion for photography, caring about our society
+            and planet. <br />I would like to make some positive impacts.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="language-teacher">
+      <div class="workshops"><h2>Wonderful moments of being a Mandarin teacher</h2></div>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+      <!-- Full-width images with title and caption text -->
+      <div class="mySlides fade">
+      <div class="titletext"><h3>Chinese painting workshop: plum blossom</h3></div>
+        <img src="./Images/culture-workshops/painting.jpg" alt="Chinese painting plum blossom" style="width:100%">
+        <div class="text">
+          <p>
+            It was the beginning of spring, and Year 4 students were learning
+            colour vocabulary in Mandarin lessons. So I thought it would be
+            great for the culture workshop's topic to focus on Chinese painting,
+            where students could not only gain real-life experience in Chinese
+            painting but also reinforce their memory of colour vocabulary.
+          </p></div>
+      </div>
+
+      <div class="mySlides fade">
+      <div class="titletext"><h3>Chinese New Year workshop: Calligraphy</h3></div>
+        <img src="./Images/culture-workshops/fu.jpg" alt="A Chinese character means luck" style="width:100%">
+      <div class="text">
+        <p>
+          This is Year 6 student Nitya's calligraphy work. During Chinese New
+          Year celebrations, students learned about traditional customs and
+          became intrigued by the character “福” (fú, meaning “luck”). I
+          demonstrated how to write it, and afterward, students practiced
+          creating their own versions of the character.
+        </p></div>
+      </div>
+
+      <div class="mySlides fade">
+      <div class="titletext"><h3>Chinese workshop: blue and white porcelain</h3></div>
+        <img src="./Images/culture-workshops/qinghuaci.jpg" alt="blue and white porcelain on a paper plate" style="width:100%">
+      <div class="text">
+        <p>
+          After a school trip to the British Museum, students' interests in
+          blue-and-white porcelain were piqued. I held a workshop to introduce
+          it in detail, and students designed their own blue-and-white
+          porcelain patterns on paper plates. Some even tried writing the
+          Chinese characters for “blue and white porcelain” (青花瓷).
+        </p></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="titletext"><h3>Chinese workshop: Beijing opera facial makeup</h3></div>
+          <img src="./Images/culture-workshops/facial-makeuo-in-opera.jpg" alt="Beijing opera facial makeup for the Monkey King" style="width:100%">
+        <div class="text">
+          <p>
+            My students have a very deep appreciation for the story "Journey to
+            the West". Their favourite figure has always been the Monkey King.
+            After the session of Beijing Opera, I thought it would be so
+            thrilling for my students that they will make a Beijing opera facial
+            makeup for the Monkey King. My thought turned out to be true. They
+            had a lot of fun.
+          </p></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="titletext"><h3>Chinese traditional clothes workshop: Qipao</h3></div>
+          <img src="./Images/culture-workshops/qipao-2.jpg" alt="Chinese traditional garment: Qipao" style="width:100%">
+        <div class="text">
+          <p>
+            A group of my students watched a Chinese costume drama and enjoyed
+            it. They asked why I never wore stylish clothes like the actresses.
+            This inspired me to introduce Chinese traditional clothes to my
+            students. When they were introduced to Qipao, a very well-known
+            Chinese traditional clothing, they couldn't wait to design their
+            versions of Qipao, hoping that they could make it real one day. I
+            had fear that boys would't enjoy this workshop as much as girls did,
+            but I was wrong, they told me that they wanted to make one for their
+            moms. I found it so sweet and touching.
+          </p></div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div> 
+    </section>
+
+       
+    <section id="frontend-developer">
+      <h2>My Journey to become a Frontend Developer</h2>
+      <div class="learning-journey">
+        <div class="step1">
+          <div class="stage"><h3>What I have learned</h3></div>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript (basic)</li>
+            <li>Python(basic)</li>
+            <li>Agile</li>
+          </ul>
+        </div>
+
+        <div class="step2">
+          <div class="stage"><h3>My current project</h3></div>
+          <ul>
+            <li>A Responsive Portfolio website</li>
+            <li>A Cafe Menu</li>
+            <li>A Balance Sheet</li>
+            <li>A Magazine</li>
+            <li>A Quiz</li>
+          </ul>
+        </div>
+        <div class="step3">
+          <div class="stage"><h3>What I will learn</h3></div>
+          <ul>
+            <li>React</li>
+            <li>Python</li>
+            <li>Data visualisation</li>
+            <li>And more...</li>
+            <li>...</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="gallery"></section>
+
+    <footer id="contact">
+      <p id="copyright">
+        © Yanan Wu |
+        <a
+          href="https://www.linkedin.com/in/yanan-wu-72b884257/"
+          target="_blank"
+          ><img
+            src="./Images/icons/linkedin-logo.png"
+            alt="Linkedin"
+            class="icons"
+        /></a>
+        <a href="https://github.com/YananWu729" target="_blank"
+          ><img src=".//Images/icons/github(1).png" alt="Github" class="icons"
+        /></a>
+        <a href="https://www.instagram.com/nannan_yanan_wu/" target="_blank"
+          ><img
+            src=".//Images/icons/instagram.png"
+            alt="Instagram"
+            class="icons"
+        /></a>
+      </p>
+    </footer>
+  </body>
+</html>
