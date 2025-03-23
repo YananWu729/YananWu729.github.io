@@ -164,7 +164,6 @@ function init() {
 
     let category = record.category ?? "Landscape";
     div.setAttribute("data-category", category);
-    console.log(knownCategories, category, knownCategories.indexOf(category))
     if (knownCategories.indexOf(category) === -1) {
       div.setAttribute("class", "cover");
       var cover = document.createElement("div");
@@ -205,6 +204,7 @@ function init() {
       menu.className = "hamburger"
     };
   }
+  plusSlides(0)
 }
 window.onload = init;
 
