@@ -2,7 +2,7 @@
 const records = [
 
   {
-    src: "../Images/Humanistic Documentary Photography/Love between an old couple.JPG",
+    src: "/love-between-an-old-couple.jpg",
     alt: "Love between an old couple",
     title: "Love",
     backgroundStory:"It was a very lovely day out in Southend-on-sea. I was heading to the beach. One glance on the side, I saw this old couple, who was showing me what it is like for the love of your life. I was so touched and I hope anyone could see this picture will find the love of their lives as well. ",
@@ -10,14 +10,15 @@ const records = [
     category: "Life"
   },
   {
-    src: "../Images/Humanistic Documentary Photography/WYN06121.JPG",
+    src: "/WYN06121.jpg",
     alt: "May I hold your hand?",
     title: "May I hold your hand?",
     backgroundStory:"It happened at St. Paul's Cathedral. My initial attention was to see the architecture. While I was wondering, I was so lucky that I captured this moment, which feels like it's telling a cute story to its audience.",
+    align: "bottom",
     category: "Life"
   },
   {
-    src: "../Images/Portrait/WYN07670.JPG",
+    src: "/WYN07670.jpg",
     alt: "Ting at Tower bridge",
     title: "Ting at Tower bridge",
     backgroundStory: "My former colleague, Ting and I went for a city walk, due to the heavy snow in London. Schools were closed, so we decided to fully use the extra day off. It was her first visit of Tower bridge and she wanted some good memory of that special day.",
@@ -25,7 +26,7 @@ const records = [
     category: "Portrait"
   },
   {
-    src: "../Images/Portrait/WYN07906.JPG",
+    src: "/WYN07906.jpg",
     alt: "Mary at Canary Wharf",
     title: "Mary at Canary Wharf",
     backgroundStory: "My former colleague and dear friend, Mary and I went for the light show at Canary Wharf. We loved the earth modal and she asked if I could take a photo of her. I joked only if she could show me her best smile. So here she is, with her sweat smile. ",
@@ -34,7 +35,7 @@ const records = [
 
 
   {
-    src: "../Images/Portrait/WYN09005.JPG",
+    src: "/WYN09005.jpg",
     alt: "Danni at British library",
     title: "Danni at British library",
     backgroundStory: "I came up an idea of offering free photography sessions for people who want some special memories of London on social media. Danni signed up for it. She lived in Sheffield, so she had to travel to London, on a day with very typical British weather. But we both enjoyed it so much, her smile brightened my gloomy sky.",
@@ -43,7 +44,7 @@ const records = [
 
 
   {
-    src: "../Images/Landscape/WYN06099.JPG",
+    src: "/WYN06099.jpg",
     alt: "On the top of St. Paul's Cathedral",
     title: "On the top of St. Paul's Cathedral",
     backgroundStory: "I'd be honest that climbing 528 steps up to the top of St. Paul's Cathedral, was not easy at all. But the view was really worthwhile, even in a cloudy day. I could see the skyline of London from another perspective.",
@@ -51,7 +52,7 @@ const records = [
   },
 
   {
-    src: "../Images/Landscape/WYN07501.JPG",
+    src: "/WYN07501.jpg",
     alt: "A wonderful view of Bath in a sunny afternoon",
     title: "Magnificent view of Bath",
     backgroundStory: "It was my second visit to Bath in October. The first time was in spring time. Flowers were blossoming, trees were green and birds were singing. So I was wondering what it would be like in autumn. Here it is, magnificently beautiful.",
@@ -59,7 +60,7 @@ const records = [
   },
 
   {
-    src: "../Images/Landscape/IMG_5820.JPG",
+    src: "/IMG_5820.jpg",
     alt: "The Alps in summer",
     title: "The Alps in summer",
     backgroundStory: "It was such a lovely day, also my first time traveling to France with my partner, whose hometown happens to be the most stunning part. We were heading to the white house in the centre of the photo. It is a family restaurant, serving local food and wine. I was genuinely amazed by the beauty of the Alps.  ",
@@ -69,7 +70,7 @@ const records = [
   
 
   {
-    src: "../Images/Landscape/Sunset at the beach Margate.JPG",
+    src: "/sunset-at-the-beach-Margate.jpg",
     alt: "Breathtaking sunset of Margate",
     title: "Breathtaking sunset of Margate",
     backgroundStory: "It was taken early spring in 2022. I was having a day out with my close friend, Yuran. We went Canterbury in the morning and then headed to the beach of Margate. I really didn't expect to see this breathtaking sunset, which made my day. Anytime I look at this picture, I could still feel that moment of pure joy and gratitude.",
@@ -77,7 +78,7 @@ const records = [
   
   }, 
   {
-    src: "../Images/Landscape/WYN06656.JPG",
+    src: "/WYN06656.jpg",
     alt: "Sunset from my former bedroom window",
     title: "Sunset from my former bedroom window",
     backgroundStory: "I was lucky to live in the flat with great view. I have been amazed so many times by the sunsets. I would just sit next to the window, looking at the changes of the colours of the clouds and the lights, which was utterly relaxing.",
@@ -85,7 +86,7 @@ const records = [
   },
 
   {
-    src: "../Images/Landscape/WYN06344.JPG",
+    src: "/WYN06344.jpg",
     alt: "A sunset view of London skyline",
     title: "A stunning sunset",
     backgroundStory: "It was taken when I was on the millennium bridge, which I used to regard as my emotional support spot in London. Maybe it's because the chewing gum art works on the bridge often made me laugh and think, or I could have a great view of both St. Paul's Cathedral and Tate modern, or I luckily got my epiphany few years ago. And once again, I have seen another stunning pinky sunset, which I will never get tired of, while standing on on the millennium bridge. It made me very pleased.",
@@ -93,7 +94,7 @@ const records = [
   },
 
   {
-    src: "../Images/Landscape/WYN07924.JPG",
+    src: "/WYN07924.jpg",
     alt: "An unforgettable sunset",
     title: "Sunset collector",
     backgroundStory: "I had a very long day at work that day. By the time I got home, I was totally knackered, so I went for a nap. When I woke up, I saw most beautiful sunset from my window. It washed out all the tiredness of the day. I couldn't be any more grateful towards the nature at that moment. ",
@@ -102,37 +103,36 @@ const records = [
 
 
   {
-    src: "../Images/Wild life/WYN08254.JPG",
+    src: "/WYN08254.jpg",
     alt: "A squirrel is in its thoughts",
     title: "A thoughtful squirrel",
     backgroundStory: "I met this fluffy squirrel at Mudchute Park and Farm. I was walking through the farm, having a close look at the cute 'residents'. All of a sudden, I heard some noise behind me, so I was alerted to check it out. Then I found out that the noise was the footsteps of the squirrel. As soon as it realised that I was looking at it, it stopped moving and kept a pose of a thinker.",
-    category: "Wild life"
+    category: "Wild Life"
   },
 
   {
-    src: "../Images/Wild life/WYN08262.JPG",
+    src: "/WYN08262.jpg",
     alt: "A parrot is eating peanuts",
     title: "A peanuts eater",
     backgroundStory: "The parrots at Kensington Gardens are not afraid of human beings at all. Maybe because there often are some people coming to feed them. To be honest, I have mixed feeling about this. For one thing, there are signs around, saying we should not feed the wild life, but still, people would ignore them. For another, if everyone respects the signs, I will not be able to see this cute moment between human beings and wild animals.",
-    category: "Wild life",
-    align: "top"
+     align: "top",
+    category: "Wild Life"   
   },
 
   {
-    src: "../Images/Wild life/WYN08417.JPG",
+    src: "/WYN08417.jpg",
     alt: "A confused Charolais cattle",
     title: "A confused Charolais cattle",
     backgroundStory: "It was in August 2023. The weather in Alpine mountain area was splendid. We had a very nice hiking. Apparently, we came across the live stock daily walking area. I was so amazed by the movement of the Charolais cattle that I stood still for a while. Maybe, my movement was also very interesting to it, so it stopped moving, observing me instead. I slowly took my camera to record that moment.",
-    category: "Wild life"
+    category: "Wild Life"
   },
   
-  
   {
-    src: "../Images/Wild life/WYN09385.JPG",
+    src: "/WYN09385.jpg",
     alt: "What are you doing?",
     title: "What are you doing?",
     backgroundStory: "Bushy park has always been very special to me, so I often recommend it to family and friends. It is pretty, also very quiet. It is very easily that people find the group of deers, which are elegant creatures. I would normally find myself a seat on the grass somewhere about 50 metres away from them. I found it had the absolute healing power for me and I appreciate it a lot.",
-    category: "Wild life"
+    category: "Wild Life"
   },
   
 ];
@@ -146,7 +146,9 @@ function init() {
     var info = document.createElement("div");
     var title = document.createElement("h2");
     var backgroundStory = document.createElement("p");
-    img.setAttribute("src", record.src);
+    let category = record.category ?? "Landscape";
+    img.setAttribute("src", "../Images/" + category.toLowerCase().replace(" ", "-") + record.src); // ../ImagesPortrait/IMG23.jpg
+  
     img.setAttribute("alt", record.alt);
     img.setAttribute("title", record.title);
     if (record.align !== undefined) {
@@ -162,7 +164,6 @@ function init() {
     div.appendChild(img);
     div.appendChild(info);
 
-    let category = record.category ?? "Landscape";
     div.setAttribute("data-category", category);
     if (knownCategories.indexOf(category) === -1) {
       div.setAttribute("class", "cover");
