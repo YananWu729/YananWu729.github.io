@@ -147,7 +147,7 @@ function init() {
     var title = document.createElement("h2");
     var backgroundStory = document.createElement("p");
     let category = record.category ?? "Landscape";
-    img.setAttribute("src", "../Images/" + category.toLowerCase().replace(" ", "-") + record.src); // ../ImagesPortrait/IMG23.jpg
+    img.setAttribute("src", "../images/" + category.toLowerCase().replace(" ", "-") + record.src); // ../ImagesPortrait/IMG23.jpg
   
     img.setAttribute("alt", record.alt);
     img.setAttribute("title", record.title);
