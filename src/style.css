@@ -5,7 +5,7 @@
 
   :root {
     --bg-primary-color: rgba(238,174,202,0.8);
-    --font-default: fantasy;
+    --font-default: monospace;
     --bg-default:   background: rgb(255,233,243);
     background: -moz-radial-gradient(circle, rgba(255,233,243,1) 23%, rgba(215,232,252,1) 77%);
     background: -webkit-radial-gradient(circle, rgba(255,233,243,1) 23%, rgba(215,232,252,1) 77%);
@@ -257,11 +257,11 @@
 
   #gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #gallery[data-state="viewing_category"] {
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 
   #gallery > div:not(.selected) > img {
