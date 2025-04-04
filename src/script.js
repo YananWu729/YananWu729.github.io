@@ -17,6 +17,15 @@ const records = [
     align: "bottom",
     category: "Life"
   },
+
+  {
+    src: "/WYN09005.jpg",
+    alt: "Danni at British library",
+    title: "Danni at British library",
+    backgroundStory: "I came up an idea of offering free photography sessions for people who want some special memories of London on social media. Danni signed up for it. She lived in Sheffield, so she had to travel to London, on a day with very typical British weather. But we both enjoyed it so much, her smile brightened my gloomy sky.",
+    category: "Portrait"
+  },
+
   {
     src: "/WYN07670.jpg",
     alt: "Ting at Tower bridge",
@@ -35,13 +44,30 @@ const records = [
 
 
   {
-    src: "/WYN09005.jpg",
-    alt: "Danni at British library",
-    title: "Danni at British library",
-    backgroundStory: "I came up an idea of offering free photography sessions for people who want some special memories of London on social media. Danni signed up for it. She lived in Sheffield, so she had to travel to London, on a day with very typical British weather. But we both enjoyed it so much, her smile brightened my gloomy sky.",
-    category: "Portrait"
+    src: "/WYN06344.jpg",
+    alt: "A sunset view of London skyline",
+    title: "A stunning sunset",
+    backgroundStory: "It was taken when I was on the millennium bridge, which I used to regard as my emotional support spot in London. Maybe it's because the chewing gum art works on the bridge often made me laugh and think, or I could have a great view of both St. Paul's Cathedral and Tate modern, or I luckily got my epiphany few years ago. And once again, I have seen another stunning pinky sunset, which I will never get tired of, while standing on on the millennium bridge. It made me very pleased.",
+    category: "Landscape"
   },
 
+   
+  {
+    src: "/WYN06656.jpg",
+    alt: "Sunset from my former bedroom window",
+    title: "Sunset from my former bedroom window",
+    backgroundStory: "I was lucky to live in the flat with great view. I have been amazed so many times by the sunsets. I would just sit next to the window, looking at the changes of the colours of the clouds and the lights, which was utterly relaxing.",
+    category: "Landscape"
+  },
+
+
+  {
+    src: "/WYN07924.jpg",
+    alt: "An unforgettable sunset",
+    title: "Sunset collector",
+    backgroundStory: "I had a very long day at work that day. By the time I got home, I was totally knackered, so I went for a nap. When I woke up, I saw most beautiful sunset from my window. It washed out all the tiredness of the day. I couldn't be any more grateful towards the nature at that moment. ",
+    category: "Landscape"
+  },
 
   {
     src: "/WYN06099.jpg",
@@ -69,37 +95,9 @@ const records = [
 
   
 
-  {
-    src: "/sunset-at-the-beach-Margate.jpg",
-    alt: "Breathtaking sunset of Margate",
-    title: "Breathtaking sunset of Margate",
-    backgroundStory: "It was taken early spring in 2022. I was having a day out with my close friend, Yuran. We went Canterbury in the morning and then headed to the beach of Margate. I really didn't expect to see this breathtaking sunset, which made my day. Anytime I look at this picture, I could still feel that moment of pure joy and gratitude.",
-    category: "Landscape"
+
+
   
-  }, 
-  {
-    src: "/WYN06656.jpg",
-    alt: "Sunset from my former bedroom window",
-    title: "Sunset from my former bedroom window",
-    backgroundStory: "I was lucky to live in the flat with great view. I have been amazed so many times by the sunsets. I would just sit next to the window, looking at the changes of the colours of the clouds and the lights, which was utterly relaxing.",
-    category: "Landscape"
-  },
-
-  {
-    src: "/WYN06344.jpg",
-    alt: "A sunset view of London skyline",
-    title: "A stunning sunset",
-    backgroundStory: "It was taken when I was on the millennium bridge, which I used to regard as my emotional support spot in London. Maybe it's because the chewing gum art works on the bridge often made me laugh and think, or I could have a great view of both St. Paul's Cathedral and Tate modern, or I luckily got my epiphany few years ago. And once again, I have seen another stunning pinky sunset, which I will never get tired of, while standing on on the millennium bridge. It made me very pleased.",
-    category: "Landscape"
-  },
-
-  {
-    src: "/WYN07924.jpg",
-    alt: "An unforgettable sunset",
-    title: "Sunset collector",
-    backgroundStory: "I had a very long day at work that day. By the time I got home, I was totally knackered, so I went for a nap. When I woke up, I saw most beautiful sunset from my window. It washed out all the tiredness of the day. I couldn't be any more grateful towards the nature at that moment. ",
-    category: "Landscape"
-  },
 
 
   {
