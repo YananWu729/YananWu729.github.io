@@ -5,7 +5,7 @@
 
   :root {
     --bg-primary-color: rgba(238,174,202,0.8);
-    --font-default: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --font-default: Nunito, sans-serif;
     --bg-default:   background: rgb(255,233,243);
     background: -moz-radial-gradient(circle, rgba(255,233,243,1) 23%, rgba(215,232,252,1) 77%);
     background: -webkit-radial-gradient(circle, rgba(255,233,243,1) 23%, rgba(215,232,252,1) 77%);
@@ -244,18 +244,6 @@
 
  
 
- /* .culture-workshops{
-    display: inline-flex;
-    gap: 1em;
-    margin: 10px;
-    overflow: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif3ww;
-  }
-
-  #language-teacher img {
-    width: 260px;
-    border-radius: 5px;  
-  } */
 
   #gallery {
     display: grid;
@@ -341,7 +329,7 @@
     padding: 1em 1em 0 1em;
     color: rgb(214, 211, 255);
     text-shadow: 0 0 5px #555;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-default)
   }
 
   #gallery .footer p {
@@ -406,7 +394,7 @@
     width: 350px;
     height: 260px;
     background-color:rgb(249, 194, 172, 0.7);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: var(--font-default);
     font-size: large;
     color: rgb(1, 42, 42);
     border-radius: 15px; 
@@ -431,8 +419,9 @@
   }
 
   #copyright {
-    font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+    font-family: var(--font-default);
+    font-weight: bolder;
   }
 
   @media screen and (max-width: 720px) {    
