@@ -26,6 +26,7 @@
     right: 0.25em;
     top: 0.25em;
     z-index: 100;
+    font-family: fantasy;
   }
 
   .hamburger > div {
@@ -139,6 +140,7 @@
   .header h1 {
     padding-left: 1rem;
     color: rgb(221, 128, 128);
+    font-size: larger;
   }
 
   /* #language-teacher h2 {
@@ -405,7 +407,7 @@
     height: 260px;
     background-color:rgb(249, 194, 172, 0.7);
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: medium;
     color: rgb(1, 42, 42);
     border-radius: 15px; 
   }
