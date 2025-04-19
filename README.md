@@ -13,7 +13,7 @@ A minimalist digital portfolio showcasing multidisciplinary work at the intersec
 ## 🛠️ Technologies  
 - HTML5 / CSS3 (Sass)  
 - JavaScript (ES6+)  
-- [Any specific frameworks/tools used]  
+ 
 
 ## 🚀 Setup  
 1. Clone repository:  
