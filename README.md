@@ -2,7 +2,7 @@
 
 🌍 **Live Site**: [yananwu729.github.io](https://yananwu729.github.io/)  
 
-A minimalist digital portfolio showcasing multidisciplinary work at the intersection of design, photography, and front-end development. Built with care to reflect cultural narratives and technical craftsmanship.  
+A minimalist digital portfolio showcasing multidisciplinary work at the intersection of lanhuage teaching, front-end development, and photography. Built with care to reflect cultural narratives and technical craftsmanship.  
 
 ## ✨ Features  
 - Responsive, clean layout optimised for storytelling  
