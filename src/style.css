@@ -1,6 +1,5 @@
  * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
   } 
 
   :root {
@@ -143,15 +142,6 @@
     font-size: larger;
   }
 
-  /* #language-teacher h2 {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 3rem;
-  } */
-
-
-
 .workshops {
   display: flex;
   justify-content: center;
@@ -212,9 +202,6 @@
   font-size: 20px;
   padding-top: 1rem;
 }
-
-
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -241,16 +228,12 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-
- 
-
-
-  #gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin: 10px;
-  }
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 10px;
+}
   /* how to make the same space for the category imgs to both sides???  */
 
   #gallery[data-state="viewing_category"] {
@@ -369,8 +352,7 @@
       width: 90%;
       /* transform: translateY(calc(90px - 50%)); */
       height: 85%;
-    }
-   
+    } 
   }
 
   .learning-journey {
@@ -456,6 +438,46 @@
     }
     .step1, .step2, .step3 {
       font-size: medium;
+    }
+
+  }
+  @media screen and (min-width: 1440px) {
+    #navbar ul {
+      width: 50%;
+    }
+    #profile h1 {
+      font-size: 5.2rem;
+    }
+    #profile p {
+      font-size:3.6rem;
+    }
+    #workshops h2 {
+      font-size: 2.8rem;
+    }
+    .slideshow-container {
+      max-width: 1050px;
+    }
+    #text h3 {
+      font-size:2.1rem;
+    }
+    #text p {
+      font-size: 1.8rem;
+    }
+
+    .frontend-developer h2 {
+      font-size: 2.8rem;
+    }
+    .frontend-developer h3 {
+      font-size: 2rem;
+
+    }
+    .frontend-developer ul {
+      font-size: 1.8rem;
+    }
+ 
+   
+    .learning-journey {
+      gap: 3em;
     }
 
   }
