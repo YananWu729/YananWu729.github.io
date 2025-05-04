@@ -343,18 +343,6 @@
     height: 50px;
     background-image: linear-gradient(transparent, #161515 5em);
   }
-
-  @media screen and (min-width: 900px) {
-    #gallery img, #gallery .footer {
-      margin: 0 auto;
-    }
-    #gallery > div:not(.selected) > img {
-      width: 90%;
-      /* transform: translateY(calc(90px - 50%)); */
-      height: 85%;
-    } 
-  }
-
   .learning-journey {
     display: flex;
     justify-content: space-evenly;
@@ -367,7 +355,6 @@
     justify-content: center;
     align-items: center;
     margin-left: 3rem;
-
   }
   .step1, .step2, .step3 {
     display: grid;
@@ -394,12 +381,10 @@
     display: flex;
     justify-content: center;
   }
-
   .icons {
     width: 35px;
     margin: 5px 5px 0 5px;
   }
-
   #copyright {
     font-size: 2.5em;
     font-family: var(--font-default);
@@ -421,7 +406,6 @@
     .hamburger {
       display: block;
     }
-    
     #navbar ul {
       display: block;
     }
@@ -433,15 +417,13 @@
     }
     .culture-workshops {
       display: inline-flex;
-      flex-direction: column;
-      
+      flex-direction: column;   
     }
     .step1, .step2, .step3 {
       font-size: medium;
     }
-
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 900px) {
     #navbar ul {
       width: 50%;
     }
@@ -463,21 +445,24 @@
     #text p {
       font-size: 1.8rem;
     }
-
     .frontend-developer h2 {
       font-size: 2.8rem;
     }
     .frontend-developer h3 {
       font-size: 2rem;
-
     }
     .frontend-developer ul {
       font-size: 1.8rem;
-    }
- 
-   
+    } 
     .learning-journey {
       gap: 3em;
     }
-
+    #gallery > div:not(.selected) > img {
+      width: 66%;
+      height: 85%;
+    }
+    #gallery img, #gallery .footer {
+      margin: 0 auto;
+    }
   }
+ 
