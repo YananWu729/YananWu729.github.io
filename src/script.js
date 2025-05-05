@@ -41,17 +41,13 @@ const records = [
     backgroundStory: "My former colleague and dear friend, Mary and I went for the light show at Canary Wharf. We loved the earth modal and she asked if I could take a photo of her. I joked only if she could show me her best smile. So here she is, with her sweat smile. ",
     category: "Portrait"
   },
-
-
   {
     src: "/WYN06344.jpg",
     alt: "A sunset view of London skyline",
     title: "A stunning sunset",
     backgroundStory: "It was taken when I was on the millennium bridge, which I used to regard as my emotional support spot in London. Maybe it's because the chewing gum art works on the bridge often made me laugh and think, or I could have a great view of both St. Paul's Cathedral and Tate modern, or I luckily got my epiphany few years ago. And once again, I have seen another stunning pinky sunset, which I will never get tired of, while standing on on the millennium bridge. It made me very pleased.",
     category: "Landscape"
-  },
-
-   
+  },  
   {
     src: "/WYN06656.jpg",
     alt: "Sunset from my former bedroom window",
@@ -59,8 +55,6 @@ const records = [
     backgroundStory: "I was lucky to live in the flat with great view. I have been amazed so many times by the sunsets. I would just sit next to the window, looking at the changes of the colours of the clouds and the lights, which was utterly relaxing.",
     category: "Landscape"
   },
-
-
   {
     src: "/WYN07924.jpg",
     alt: "An unforgettable sunset",
@@ -92,13 +86,6 @@ const records = [
     backgroundStory: "It was such a lovely day, also my first time traveling to France with my partner, whose hometown happens to be the most stunning part. We were heading to the white house in the centre of the photo. It is a family restaurant, serving local food and wine. I was genuinely amazed by the beauty of the Alps.  ",
     category: "Landscape"
   },
-
-  
-
-
-
-  
-
 
   {
     src: "/WYN08254.jpg",

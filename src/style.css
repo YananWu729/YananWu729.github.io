@@ -439,19 +439,23 @@
     .slideshow-container {
       max-width: 1050px;
     }
-    #text h3 {
+    .text h3 {
       font-size:2.1rem;
     }
-    #text p {
+    .text p {
       font-size: 1.8rem;
     }
-    .frontend-developer h2 {
+    .step1, .step2, .step3{
+      width: 550px;
+      height: 360px;
+    }
+    #frontend-developer h2 {
       font-size: 2.8rem;
     }
-    .frontend-developer h3 {
+    #frontend-developer h3 {
       font-size: 2rem;
     }
-    .frontend-developer ul {
+    #frontend-developer ul {
       font-size: 1.8rem;
     } 
     .learning-journey {
